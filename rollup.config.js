@@ -4,7 +4,7 @@ import resolve from '@rollup/plugin-node-resolve';
 import html from '@rollup/plugin-html'
 
 export default {
-  input: 'src/main.js',
+  input: 'src/app.js',
   output: {
     file: 'public/bundle.js',
     format: 'iife',
